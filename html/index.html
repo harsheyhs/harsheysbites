@@ -5,67 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Harshita Singh">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./shop.css">
     <title>Harshey's Bites</title>
 </head>
 
 <body>
-    <main>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="./signup.html">Sign Up</a></li>
-                    <li><a href="./signin.html">Sign In</a></li>
-                    <li><a href="./about.html">About</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="logo">
-            <img src="../imgs/Harshey’sbites.jpg" alt="logo of Harshey’s Bites">
+    <div class="hero">
+        
+        <img id='hero-right' src="../imgs/hero.png">
+        <img id='hero-center' src="../imgs/hero-center.svg">
+        
+        <img id='peeking-cat' src="../imgs/hero-cat.png">
+        
+        
+
+        <div class="overlay"></div>
+
+    </div>
+    <div class="linear-border">
+        <ul class="text-xl">
+            <li id="whats-cooking">Recipes</li>
+            <li id="shop">Bookmarks
+            </li>
+            <li id="about">About</li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div class="tab-1-content">
+            <article id="one">
+                <h2><a class="text-l" href="./sushi.html">Smoked salmon & avocado sushi</a></h2>
+                <p>Fancy making sushi at home? This simple recipe makes 32 healthy little bites, ideal for lunch or
+                    served as canapés</p>
+                <img src="../imgs/Sushi.webp" alt="person holding sushi with chopsticks">
+            </article>
+            <article id="two">
+                <h2><a class="text-l" href="./noodles.html">Cheat's ramen noodle soup</a></h2>
+                <p>Use chicken, ramen noodles, spinach, sweetcorn and eggs to make this warming soup, ideal for when you
+                    crave something comforting yet light and wholesome.</p>
+                <img src="../imgs/noodles.jpeg" alt="ramen noodle soup in a bowl">
+            </article>
+            <article id="three">
+                <h2><a class="text-l" href="./cupcake.html">Cupcake recipe</a></h2>
+                <p>Bake these easy vanilla cupcakes in just 35 minutes. Perfect for birthdays, picnics or whenever you
+                    fancy a sweet treat, they're sure to be a crowd-pleaser</p>
+                <img src="../imgs/cupcake.jpeg" alt="rainbow cupcake">
+            </article>
+        </div>
+        <div class="tab-2-content">
+
         </div>
 
-        <section>
-            <h1>Newly added recipes!</h1>
-            <article>
-                <h2> <a href="./caprese.html">Caprese salad (tomato and mozzarella salad)</a></h2>
-                <p>
-                    Make this classic Italian tricolore salad for a starter or side. It's incredibly simple but, when
-                    made with perfectly ripe tomatoes, is a real delight.
-                </p>
-                <a href="./caprese.html">
-                    <img src="../imgs/Caprese-Salad.webp" alt="Caprese-salad image">
-                </a>
-            </article>
 
-            <article>
-                <h2> <a href="./satay.html">Chicken satay salad</a></h2>
-                <p>
-                    Try this no-fuss, midweek meal that's high in protein and big on flavour. Marinate chicken breasts,
-                    then drizzle with a punchy peanut satay sauce.
-                </p>
-                <a href="./satay.html">
-                    <img src="../imgs/satay2.jpeg" alt="chicken satay salad image">
-                </a>
-            </article>
-
-            <article>
-                <h2><a href="./gnocchi.html">Chorizo & mozzarella gnocchi bake</a></h2>
-                <p>
-                    Upgrade cheesy tomato pasta with gnocchi, chorizo and mozzarella for a comforting bake that makes an
-                    excellent midweek meal.
-                </p>
-                <a href="./gnocchi.html">
-                    <img src="../imgs/gnocchi.avif" alt="gnocchi pasta image">
-                </a>
-            </article>
-        </section>
-    </main>
+        <div class="tab-3-content">
+            <p>
+                This website is made using HTML5, CSS and Vanilla JavaScript. This is a food blog website.
+            </p>
+        </div>
+    </div>
 
     <footer id="about">
         <small> This site is made for personal learning purposes. The recipes are sourced from the website: <a
                 href="https://www.bbcgoodfood.com/">BBC Good Food.</a></small>
     </footer>
-
-
+<script src="../javascript/index.js" type="module"></script>
 </body>
 
 </html>
