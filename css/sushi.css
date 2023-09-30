@@ -1,0 +1,75 @@
+@import url('../css/css-reset.css');
+body{
+    color:#F2EAE3;
+    font-family: 'Poppins', sans-serif;
+    background-color: #C6A7CA;
+    
+}
+
+main{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   width: 100%;
+  grid-gap:0;
+  padding-bottom: 8rem;
+  overflow: hidden;
+}
+
+header{
+   
+    width: 100%;
+    height: 15vh;
+    padding:2rem 5rem;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+#home-icon{
+    height:50px;
+}
+#bookmark-icon{
+    height:50px;
+}
+article{
+    margin:0 5rem;
+    padding: 1.7rem;
+    border: 2px solid #27182B;
+    border-radius: 30px;
+    background: #624E73;
+    box-shadow: 5px 5px rgba(139,215,113,.8);
+    width:100%;
+   grid-column: 1/2;
+   
+
+}
+.details li ,.ingredients li{
+    font-size:1rem;
+    letter-spacing: .3px;
+    list-style-type: disc;
+}
+
+h1,h2,h3{
+    color:#8BD771;
+    padding: 1rem 0;
+}
+.details {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+}
+.ingredients{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    grid-template-rows: repeat(auto, minmax(100px,1fr));
+    grid-auto-flow: dense;
+    padding-left: 1rem;
+}
+.dish-img{
+    grid-column: 2/3;
+    
+}
+
