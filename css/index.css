@@ -43,6 +43,7 @@ p{
     top:0;
     height: 93vh;
     background-color: rgba(30,15,39,.9);
+    box-shadow: inset 50px 50px 150px #000,inset -50px -50px 150px #000;
 }
 header,#on-top{
     position: absolute;
@@ -56,6 +57,7 @@ header,#on-top{
     height: 93vh;
    
 }
+
 #cat-peek{
     height:200px;
     width:200px;

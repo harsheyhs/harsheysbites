@@ -1,0 +1,1 @@
+(()=>{const t=document.querySelectorAll(".tab-item"),e=document.querySelectorAll(".tab-content-item");function o(o){t.forEach((t=>t.classList.remove("tab-border"))),e.forEach((t=>t.classList.remove("show"))),this.classList.add("tab-border"),console.log(this.id),document.querySelector(`#${this.id}-content`).classList.add("show")}t.forEach((t=>t.addEventListener("click",o)))})();
