@@ -14,41 +14,49 @@ const firebaseConfig = {
 };
 
 initializeApp(firebaseConfig);
-
-
 const db = getFirestore();
 
 const colRef = collection(db, 'users');
 
 //html ref
+const signup = document.querySelector('.signup');
 
-const signin=document.querySelector('.signin');
+const message = document.querySelector('aside');
 
-//sign in users
-signin.addEventListener('submit', (e) => {
+//add users
+signup.addEventListener('submit', (e) => {
     let flag = 0;
     e.preventDefault();
     getDocs(colRef)
         .then(snapshot => {
             snapshot.docs.forEach(doc => {
 
-                if (doc.data().email === signin.email.value.trim()) {
-                    if(doc.data().password===signin.password.value.trim()){
+                if (doc.data().email === signup.email.value.trim()) {
                     //display error 
-                     flag = 1;
-                     location.replace("http://127.0.0.1:5500/dist/index.html");
-                    }
-                    else{
-                        document.querySelector('#error').innerHTML='Please enter right password.';
-                    }
+                    console.log('ooga booga')
+                    message.innerHTML = `<p>You are already a member. Try signing in.<br><a href='./signin.html'>Sign in.</a></p>`; flag = 1;
                 }
 
             })
             if (flag === 0) {
 
-                message.innerHTML = `<p>You are not a member.<br><a href='./dist/signup.html'>Sign up.</a></p>`;
+
+                addDoc(colRef, {
+                    email: signup.email.value.trim(),
+                    password: signup.password.value.trim()
+                })
+                    .then(() => {
+                        signup.reset();
+                    })
+                    location.replace("http://127.0.0.1:5500/dist/signin.html");
             }
         })
         .catch(err => { console.log(err.message) })
 
 })
+
+
+
+
+
+

@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firebase</title>
+    <meta name="author" content="Harshita Singh">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <title>Harshey's Bites</title>
 </head>
+
 <body>
-    
+    <div class="hero">
+        <img src="../imgs/hero.png" id="hero-img" alt="background of food doodles">
+        <div class="overlay"></div>
+
+        
+        <div id="on-top">
+            <img src="../imgs/hero-cat.png" id='cat-peek' alt="a cat peeking through the background">
+
+            <div class="hero-imgs">
+                <img src="../imgs/LOGO.png" id="logo" alt="">
+                <img src="../imgs/hero-center.svg" id='center-pic' alt="digital drawing of a witch and a cat cooking">
+            </div>
+        </div>
+        <header>
+            <nav>
+                <ul>
+                   <li><a href="./signin.html">Sign In</a></li> 
+                   <li><a href="./signup.html">Sign Up</a></li> 
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="linear-border">
+        <ul class="text-xl">
+            <li id="tab-1" class="tab-item tab-border">Recipes</li>
+            <li id="tab-2" class="tab-item">Ask ChatGpt
+            </li>
+            <li id="tab-3" class="tab-item">About</li>
+        </ul>
+    </div>
+    <div class="tab-content">
+
+        <div id="tab-1-content" class="tab-content-item show">
+            
+                <article id="one">
+                    <div>
+                        <h2><a class="text-l" href="./sushi.html">Smoked salmon & avocado sushi</a></h2>
+                        <p>Fancy making sushi at home? This simple recipe makes 32 healthy little bites, ideal for lunch
+                            or
+                            served as canapés</p>
+                    </div>
+                    <img src="../imgs/Sushi.webp" alt="person holding sushi with chopsticks">
+                </article>
+
+                <article id="two">
+                    <div>
+                        <h2><a class="text-l" href="./noodles.html">Cheat's ramen noodle soup</a></h2>
+                        <p>Use chicken, ramen noodles, spinach, sweetcorn and eggs to make this warming soup, ideal for
+                            when you
+                            crave something comforting yet light and wholesome.</p>
+                    </div>
+                    <img src="../imgs/noodles.jpeg" alt="ramen noodle soup in a bowl">
+                </article>
+                <article id="three">
+                    <div>
+                        <h2><a class="text-l" href="./cupcake.html">Cupcake recipe</a></h2>
+                        <p>Bake these easy vanilla cupcakes in just 35 minutes. Perfect for birthdays, picnics or
+                            whenever you
+                            fancy a sweet treat, they're sure to be a crowd-pleaser</p>
+                    </div>
+                    <img src="../imgs/cupcake.jpeg" alt="rainbow cupcake">
+                </article>
+            
+        </div>
+
+
+        <div id="tab-2-content" class="tab-content-item">
+            <p>Coming soon...</p>
+        </div>
+
+
+        <div id="tab-3-content" class="tab-content-item">
+            <p>
+                This website is made using HTML5, CSS and Vanilla JavaScript. This is a food blog website.
+            </p>
+        </div>
+    </div>
+
+    <footer id="about">
+        <small> This site is made for personal learning purposes. The recipes are sourced from the website: <a
+                href="https://www.bbcgoodfood.com/" target="_blank">BBC Good Food.</a></small>
+    </footer>
+    <script src="../src/index.js" type="module"></script>
 </body>
+
 </html>

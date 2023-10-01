@@ -184,7 +184,10 @@ article img{
     
     box-shadow: 3px 3px var(--filler);
 }
-
+#tab-2-content {
+justify-content: center;
+padding: 3rem;
+}
 #tab-3-content{
     text-align: center;
     padding: 2rem 5rem;
