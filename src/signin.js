@@ -37,7 +37,7 @@ signin.addEventListener('submit', (e) => {
                     if(doc.data().password===signin.password.value.trim()){
                     //display error 
                      flag = 1;
-                     location.replace("./dist/index.html");
+                     location.replace("./cupcake.html");
                     }
                     else{
                         document.querySelector('#error').innerHTML='Please enter right password.';
@@ -47,7 +47,7 @@ signin.addEventListener('submit', (e) => {
             })
             if (flag === 0) {
 
-                message.innerHTML = `<p>You are not a member.<br><a href='./dist/signup.html'>Sign up.</a></p>`;
+                message.innerHTML = `<p>You are not a member.<br><a href='./signup.html'>Sign up.</a></p>`;
             }
         })
         .catch(err => { console.log(err.message) })
