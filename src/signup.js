@@ -37,7 +37,7 @@ signup.addEventListener('submit', (e) => {
                 if (doc.data().email === signup.email.value.trim()) {
                     //display error 
                     console.log('ooga booga')
-                    message.innerHTML = `<p>You are already a member. Try signing in.<br><a href='./signin.html'>Sign in.</a></p>`; flag = 1;
+                    message.innerHTML = `<p>You are already a member. Try signing in.<br><a href='https://harsheysbites.netlify.app/'>Sign in.</a></p>`; flag = 1;
                 }
 
             })
@@ -50,7 +50,7 @@ signup.addEventListener('submit', (e) => {
                 })
                     .then(() => {
                         
-                        window.location.replace('./signin.html')
+                        window.location.replace('https://harsheysbites.netlify.app/signin')
                     })
                    
             }
