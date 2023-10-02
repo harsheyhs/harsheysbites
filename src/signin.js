@@ -1,7 +1,7 @@
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-firestore.js"
 import { collection, getDocs, addDoc } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-firestore.js"
-
 
 const firebaseConfig = {
     apiKey: "AIzaSyBbr_7dvddvuwq1mPYMkBQCyCw4q_tS5vA",
@@ -23,6 +23,7 @@ const colRef = collection(db, 'users');
 //html ref
 
 const signin=document.querySelector('.signin');
+const message=document.querySelector('aside')
 
 //sign in users
 signin.addEventListener('submit', (e) => {
@@ -36,7 +37,7 @@ signin.addEventListener('submit', (e) => {
                     if(doc.data().password===signin.password.value.trim()){
                     //display error 
                      flag = 1;
-                     location.replace("http://127.0.0.1:5500/dist/index.html");
+                     location.replace("./dist/index.html");
                     }
                     else{
                         document.querySelector('#error').innerHTML='Please enter right password.';
@@ -52,3 +53,4 @@ signin.addEventListener('submit', (e) => {
         .catch(err => { console.log(err.message) })
 
 })
+

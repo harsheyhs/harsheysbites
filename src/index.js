@@ -1,4 +1,6 @@
 
+//html ref
+
 
 const tabItem= document.querySelectorAll('.tab-item');
 const tabContent= document.querySelectorAll('.tab-content-item');
@@ -19,3 +21,4 @@ function removeBorder(){
 function removeShow(){
     tabContent.forEach(item => item.classList.remove('show'));
 }
+
