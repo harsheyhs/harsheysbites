@@ -37,7 +37,7 @@ signin.addEventListener('submit', (e) => {
                     if(doc.data().password===signin.password.value.trim()){
                     //display error 
                      flag = 1;
-                     location.replace("./cupcake.html");
+                     location.replace("index.html");
                     }
                     else{
                         document.querySelector('#error').innerHTML='Please enter right password.';
