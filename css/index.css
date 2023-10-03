@@ -13,6 +13,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .text-xl{
@@ -139,7 +140,8 @@ grid-column: 4/5;
 .tab-content{
     border-top: 5px solid rgba(30,15,39,.6);
     background-color: var(--medium);
-    height: auto;
+    height: 100vh;
+    padding-top: 20px;
 }
 #tab-1-content{
     display: flex;
@@ -186,12 +188,15 @@ article img{
 }
 #tab-2-content {
 justify-content: center;
+
 padding: 3rem;
+height: 100vh;
 }
 #tab-3-content{
     text-align: center;
     padding: 2rem 5rem;
     justify-content: center;
+    height: 100vh;
 }
 footer{
     background-color: var(--medium);
@@ -211,7 +216,7 @@ footer a{
     display: flex !important;
 }
 
-@media (max-width:480px){
+@media (max-width:870px){
     #logo{
         display: none;
     }
@@ -222,7 +227,13 @@ footer a{
     #cat-peek{
        display: none;
     }
-    .hero,#hero-img,.overlay{
+    #hero-img{
+        height: 60vh;
+    }
+    .overlay{
+        height: 60vh;
+    }
+    #on-top{
         height: 60vh;
     }
     .linear-border{
@@ -234,30 +245,40 @@ footer a{
     .tab-item{
         height:10vh;
     }
+    .tab-content{
+        height: fit-content;
+    }
     #tab-1-content,#tab-2-content,#tab-3-content{
        padding: 1rem;
        align-items: center;
        justify-content: center;
+       
     }
+   
     #one,#three{
         align-self: center;
-        flex-wrap: wrap;
-        justify-self: center;
+        flex-wrap: nowrap;
+        justify-self:center;
 
     }
     #two{
         align-self: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-self: center;
     }
     p{
         font-size: 16px;
+    }
+    article h2{
+        margin-bottom: 10px;
     }
     .text-l{
         font-size: 20px;
     }
     article{
         justify-content: center;
+        height: fit-content;
+        gap:10px;
     }
     article img{
         width:100px;
@@ -275,21 +296,28 @@ footer a{
         text-align: center;
         padding: 3px;
     }
-  
+ 
 }
-
-@media (max-width:870px){
+@media (max-width:561px) {
     #logo{
         display: none;
     }
     #center-pic{
         margin-top: 0;
-        width:50%;
+        width:60%;
+        height: 50vh;
+        margin-top: 10vh;
     }
     #cat-peek{
        display: none;
     }
-    .hero,#hero-img,.overlay{
+    #hero-img{
+        height: 60vh;
+    }
+    .overlay{
+        height: 60vh;
+    }
+    #on-top{
         height: 60vh;
     }
     .linear-border{
@@ -305,11 +333,15 @@ footer a{
        padding: 1rem;
        align-items: center;
        justify-content: center;
+       
     }
+   .tab-content{
+    height: fit-content;
+   }
     #one,#three{
         align-self: center;
         flex-wrap: wrap;
-        justify-self: center;
+        justify-self:center;
 
     }
     #two{
@@ -320,10 +352,17 @@ footer a{
     p{
         font-size: 16px;
     }
+    article h2{
+        margin-bottom: 10px;
+    }
     .text-l{
         font-size: 20px;
     }
-    
+    article{
+        justify-content: center;
+        height: fit-content;
+        gap:10px;
+    }
     article img{
         width:100px;
         height:100px;
@@ -340,5 +379,5 @@ footer a{
         text-align: center;
         padding: 3px;
     }
-  
 }
+
