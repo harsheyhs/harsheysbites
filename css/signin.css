@@ -78,7 +78,7 @@ h1{
     border: 2px solid rgb(30,15,39); 
 }
 aside{
-    padding-top: 20vh;
+    padding-top: 10vh;
     
 }
 
@@ -88,4 +88,4 @@ aside{
         left: 20%;
         height: 43vh;
     }
-}
+}    
