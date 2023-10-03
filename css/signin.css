@@ -88,5 +88,7 @@ aside{
         left: 20%;
         height: 43vh;
     }
-   
+   h1{
+    font-size: 1.2rem;
+   }
 }    
