@@ -211,4 +211,134 @@ footer a{
     display: flex !important;
 }
 
+@media (max-width:480px){
+    #logo{
+        display: none;
+    }
+    #center-pic{
+        margin-top: 0;
+        width:80%;
+    }
+    #cat-peek{
+       display: none;
+    }
+    .hero,#hero-img,.overlay{
+        height: 60vh;
+    }
+    .linear-border{
+        height:10vh;
+    }
+    .text-xl{
+        font-size: 20px;
+    }
+    .tab-item{
+        height:10vh;
+    }
+    #tab-1-content,#tab-2-content,#tab-3-content{
+       padding: 1rem;
+       align-items: center;
+       justify-content: center;
+    }
+    #one,#three{
+        align-self: center;
+        flex-wrap: wrap;
+        justify-self: center;
 
+    }
+    #two{
+        align-self: center;
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+    p{
+        font-size: 16px;
+    }
+    .text-l{
+        font-size: 20px;
+    }
+    article{
+        justify-content: center;
+    }
+    article img{
+        width:100px;
+        height:100px;
+       
+    }
+    footer {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    nav ul li{
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+        text-align: center;
+        padding: 3px;
+    }
+  
+}
+
+@media (max-width:870px){
+    #logo{
+        display: none;
+    }
+    #center-pic{
+        margin-top: 0;
+        width:50%;
+    }
+    #cat-peek{
+       display: none;
+    }
+    .hero,#hero-img,.overlay{
+        height: 60vh;
+    }
+    .linear-border{
+        height:10vh;
+    }
+    .text-xl{
+        font-size: 20px;
+    }
+    .tab-item{
+        height:10vh;
+    }
+    #tab-1-content,#tab-2-content,#tab-3-content{
+       padding: 1rem;
+       align-items: center;
+       justify-content: center;
+    }
+    #one,#three{
+        align-self: center;
+        flex-wrap: nowrap;
+        justify-self: center;
+
+    }
+    #two{
+        align-self: center;
+        flex-wrap: nowrap;
+        justify-self: center;
+    }
+    p{
+        font-size: 16px;
+    }
+    .text-l{
+        font-size: 20px;
+    }
+    
+    article img{
+        width:100px;
+        height:100px;
+       
+    }
+    footer {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    nav ul li{
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+        text-align: center;
+        padding: 3px;
+    }
+  
+}

@@ -41,12 +41,12 @@ main,header{
 }
 
 main{
-    width:30%;
+    width:40%;
     height:45vh;
     background-color: rgba(198,167,202,.3);
    padding-bottom: 5vh;
-    top:25vh;
-    left:35%;
+    top:27.5vh;
+    left:30%;
     border-radius: 10px;
     text-align: center;
 }
@@ -80,4 +80,12 @@ h1{
 aside{
     padding-top: 20vh;
     
+}
+
+@media (max-width:870px) {
+    main{
+        width:60%;
+        left: 20%;
+        height: 43vh;
+    }
 }
