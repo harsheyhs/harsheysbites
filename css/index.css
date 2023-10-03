@@ -308,13 +308,13 @@ footer a{
     }
     #one,#three{
         align-self: center;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-self: center;
 
     }
     #two{
         align-self: center;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-self: center;
     }
     p{
