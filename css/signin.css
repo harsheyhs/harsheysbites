@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('./css-reset.css');
 body{
     background-color:rgb(30,15,39) ;
@@ -69,6 +70,7 @@ h1{
     padding-top: 2rem;
     margin-bottom: 20px;
     color: rgba(139,215,113,.7);
+    font-family: 'Creepster', cursive;
 }
 #submit-btn{
     padding:2% 5%;
@@ -89,7 +91,7 @@ aside{
         height: 43vh;
     }
    h1{
-    font-size: 1.2rem;
+    font-size:1.4rem;
    }
    #back-img{
     display: none;
