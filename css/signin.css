@@ -79,17 +79,17 @@ h2{
     color: rgba(139,215,113,.7);
     font-family: 'Creepster', cursive;
     font-size: 2rem;
+    font-weight: 700;
 }
 #submit-btn{
-    padding:2% 5%;
+    padding:3%;
     border-radius: 5px;
-    
+    font-weight: 700;
     background-color:rgba(139,215,113,.7) ;
     border: 2px solid rgb(30,15,39); 
 }
 aside{
     padding-top: 10vh;
-    
 }
 
 @media (max-width:870px) {
