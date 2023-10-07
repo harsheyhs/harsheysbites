@@ -50,7 +50,7 @@ signup.addEventListener('submit', (e) => {
                 })
                     .then(() => {
                         
-                        window.location.replace('https://harsheysbites.netlify.app/signin')
+                        window.location.replace('https://harsheysbites.netlify.app/')
                     })
                    
             }
