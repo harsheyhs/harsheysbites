@@ -127,7 +127,7 @@ grid-column: 4/5;
  grid-column: 6/7;
 }
 .linear-border ul li{
-   
+    font-size: 1.7rem;
     border-radius: 1px;
     display: flex;
     justify-content: center;
@@ -170,7 +170,7 @@ article{
     
 }
 article h2{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 #two{
    
@@ -180,8 +180,8 @@ article h2{
     align-self:start;
 }
 article img{
-    width:150px;
-    height:150px;
+    width:120px;
+    height:120px;
     border-radius: 20px;
     
     box-shadow: 3px 3px var(--filler);

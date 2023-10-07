@@ -91,4 +91,7 @@ aside{
    h1{
     font-size: 1.2rem;
    }
+   #back-img{
+    display: none;
+   }
 }    
