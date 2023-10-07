@@ -66,7 +66,7 @@ form{
     border: 2px solid rgb(30,15,39);
     padding-left: 10px;
 }
-h1{
+h1,h2{
     padding-top: 2rem;
     margin-bottom: 20px;
     color: rgba(139,215,113,.7);
