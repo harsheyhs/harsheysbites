@@ -66,9 +66,16 @@ form{
     border: 2px solid rgb(30,15,39);
     padding-left: 10px;
 }
-h1,h2{
+h1{
+    font-size: 3rem;
+    padding-top: 1.5rem;
+    margin-bottom: 5px;
+    color:rgba(139,215,113,.7) ;
+    font-family: 'Creepster', cursive;
+}
+h2{
     padding-top: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: rgba(139,215,113,.7);
     font-family: 'Creepster', cursive;
     font-size: 1.6rem;
@@ -91,9 +98,7 @@ aside{
         left: 20%;
         height: 43vh;
     }
-   h1{
-    font-size:1.4rem;
-   }
+  
    #back-img{
     display: none;
    }
