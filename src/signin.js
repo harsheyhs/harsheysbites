@@ -5,11 +5,12 @@ import { collection, getDocs, addDoc } from "https://www.gstatic.com/firebasejs/
 
 const firebaseConfig = {
     apiKey: "AIzaSyAAIyTb4n8idDtL7Iv7qJYAiIaQZJOdkRY",
-    authDomain: "harsheysbites.firebaseapp.com",
-    projectId: "harsheysbites",
-    storageBucket: "harsheysbites.appspot.com",
-    messagingSenderId: "1072566654250",
-    appId: "1:1072566654250:web:1c99b587383752988eba53"
+  authDomain: "harsheysbites.firebaseapp.com",
+  projectId: "harsheysbites",
+  storageBucket: "harsheysbites.appspot.com",
+  messagingSenderId: "1072566654250",
+  appId: "1:1072566654250:web:1c99b587383752988eba53",
+  databaseURL:"https://harsheysbites-default-rtdb.asia-southeast1.firebasedatabase.app/"
 };
 
 initializeApp(firebaseConfig);
