@@ -4,13 +4,12 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-
 import { collection, getDocs, addDoc } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-firestore.js"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBbr_7dvddvuwq1mPYMkBQCyCw4q_tS5vA",
-    authDomain: "harsheyshbites.firebaseapp.com",
-    databaseURL: "https://harsheyshbites-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "harsheyshbites",
-    storageBucket: "harsheyshbites.appspot.com",
-    messagingSenderId: "453384681158",
-    appId: "1:453384681158:web:d2eb2862bffdc4d38349c7"
+    apiKey: "AIzaSyAAIyTb4n8idDtL7Iv7qJYAiIaQZJOdkRY",
+    authDomain: "harsheysbites.firebaseapp.com",
+    projectId: "harsheysbites",
+    storageBucket: "harsheysbites.appspot.com",
+    messagingSenderId: "1072566654250",
+    appId: "1:1072566654250:web:1c99b587383752988eba53"
 };
 
 initializeApp(firebaseConfig);
